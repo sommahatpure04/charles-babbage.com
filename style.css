@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+}
+#img1{
+    margin-top: 200px;
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    height: 800px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(#05d3f8 0%,#8cf55f 100%);
+}
+.menu{
+    list-style:none;
+    font-family: cursive;
+    position: fixed;
+    top: 10px;
+    right:130px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    color: red;
+    padding-top:7px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
